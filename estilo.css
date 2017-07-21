@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {  
+    background:url(img/552015.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.contenedora {
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+}
+.contenedor {
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    border: 1px #3498db solid;
+    background-color: white;
+}
+    .contenedor p {
+        margin-bottom: 20px;
+    }
+.contenedor video{
+    padding: 0;
+    margin: 0;
+    width: 75%;
+}
+.contenido{
+    width: 75%;
+    padding: 0;
+    margin: auto;
+    text-align: justify;
+}
+#lista{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+    text-align: justify;
+}
+#pc{
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    float: right;
+    clear: both;
+}
+#tipospc{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+    text-align: justify;
+}
+#pccomp{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+    text-align: justify;
+}
+ol{
+    padding-bottom: 10px;
+}
+
+header nav{
+    background: #3498db;
+    margin-bottom: 10px;
+}
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li {
+    float: left;
+}
+header nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #2980b9;
+}
